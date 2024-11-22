@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "funfor",
+    "scheme": "funfor",
     "slug": "funfor",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +20,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.debian01.funfor"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e2a5e3a2-f6d4-4112-bc28-bd6d5901b382"
+      }
     }
   }
 }
